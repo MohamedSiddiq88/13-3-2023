@@ -6,10 +6,10 @@ function foo(){
    let ln= document.getElementById("ln").value;
    let em=document.getElementById("email").value;
     let pas=document.getElementById("password").value;
-console.log(fn);
-console.log(mn);
-console.log(ln);
-console.log(em);
-console.log(pas);
+console.log(`First name ${fn}`)
+console.log(`Middel name ${mn}`);
+console.log(`Last name ${ln}`);
+console.log(`email ${em}`);
+console.log(`Password ${pas}`);
 
 }
